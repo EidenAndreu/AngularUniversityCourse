@@ -353,7 +353,7 @@
   </div>
   <hr/>
 
-  <input class="demo" [value]="data.title">
+  <input class="demo" (keyup)="onKeyUp(titleInput.value)" [value]="data.title" #titleInput>
 
   <!-- Resources -->
   <h2>Resources</h2>
