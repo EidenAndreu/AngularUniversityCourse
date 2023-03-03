@@ -10,4 +10,8 @@ export class AppComponent {
   data = {
     title: 'angular-course'
   }
+
+  onLogoClicked(){
+    alert('Hello World')
+  }
 }
