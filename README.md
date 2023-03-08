@@ -30,6 +30,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 #### Commands
 
-npm install -g @angular/cli
-cd /* the generated folder */
-npm start
+- npm install -g @angular/cli
+- cd /* the generated folder */
+- npm start
+
+- ng generate component /* name of component */
